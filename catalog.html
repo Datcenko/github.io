@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="From our inspiring illustrations to dynamic UI/UX kits, elevate your projects with our premium digital design resources">
+    <meta name="keywords" content="Digital Assets, design resources, UI/UX kits, Presentation, fonts, ullustrations, templates, Slides, mobile App, product mockups, websites, social media">
+    <title>Pixmart Catalog page</title>
+    <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nomalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="header__wrapper">
+            <a href="index.html" class="logo">
+                <img src="images/logo-small.svg" width="107" height="24" alt="Pixmart." >  
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav__item active">
+                        <a href="#" class="nav__link">
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            Creators
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="blog.html" class="nav__link">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contacts.html" class="nav__link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="tools">
+            <form class="search">
+                <label for="gsearch"></label>
+                <input type="search" class="search__input" id="gsearch" placeholder="Search for Digital Assets">
+            </form>
+            <a href="#" class="btn btn--primary btn--small">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+    </header>
+    <main class="main">
+        <section class="catalog-info">
+            <div class="container">
+                <h1 class="title-block">
+                    <strong class="is-block">
+                        Explore Top
+                    </strong>
+                    <strong class="is-block">
+                        <span class="mark">UI Kits</span> Design Assets
+                    </strong>
+                </h1>
+            </div>
+        </section>
+        <div class="wrapper container">
+            <aside class="sidebar">
+                <form class="form-catalog">
+                    <div class="filter-box">
+                        <strong class="filter-box__title">
+                            Categories
+                        </strong>
+                        <div class="filter-box__info">
+                            <label class="form-checkbox"> 
+                                <input disabled type="checkbox" class="input-hidden checkbox__input" name="all categories" value="categories">
+                                <span class="custom-checkbox"></span>
+                                All Categories
+                            </label>
+                            <label class="form-checkbox form-checkbox--disabled"> 
+                                <input type="checkbox" class="input-hidden checkbox__input" name="technology" value="categories">
+                                <span class="custom-checkbox"></span>
+                                Technology
+                            </label>
+                            <label class="form-checkbox"> 
+                                <input type="checkbox" disabled checked class="input-hidden checkbox__input" required name="travel" value="categories">
+                                <span class="custom-checkbox"></span>
+                                Travel & Tourism
+                            </label>
+                            <label class="form-checkbox"> 
+                                <input type="checkbox" checked class="input-hidden checkbox__input" name="health" value="categories">
+                                <span class="custom-checkbox"></span>
+                                Health & Fitness
+                            </label>
+                            <label class="form-checkbox"> 
+                                <input type="checkbox" class="input-hidden checkbox__input" name="e-commerce" value="categories">
+                                <span class="custom-checkbox"></span>
+                                E-Commerce
+                            </label>
+                            <label class="form-checkbox"> 
+                                <input type="checkbox" class="input-hidden checkbox__input" name="education" value="categories">
+                                <span class="custom-checkbox"></span>
+                                Education
+                            </label>
+                            <label class="form-checkbox"> 
+                                <input type="checkbox" class="input-hidden checkbox__input" name="entertainment" value="categories">
+                                <span class="custom-checkbox"></span>
+                                Entertainment
+                            </label>
+                            <label class="form-checkbox"> 
+                                <input type="checkbox" class="input-hidden checkbox__input" name="others" value="categories">
+                                <span class="custom-checkbox"></span>
+                                Others
+                            </label>
+                            <label class="form-checkbox"> 
+                                <input type="checkbox" class="input-hidden checkbox__input" name="others" value="categories">
+                                <span class="custom-checkbox"></span>
+                                Others
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter-box">
+                        <strong class="filter-box__title">
+                            Format Type
+                        </strong>
+                        <div class="filter-box__info">
+                            <label class="form-radio">
+                                <input type="radio" class="input-hidden" value="figma" checked name="format">
+                                <span class="custom-radio"></span>
+                                Figma
+                            </label>
+                            <label class="form-radio form-radio--disabled">
+                                <input type="radio" disabled class="input-hidden" value="sketch" name="format">
+                                <span class="custom-radio"></span>
+                                Sketch
+                            </label>
+                            <label class="form-radio">
+                                <input type="radio" required class="input-hidden" value="adobe XD" name="format">
+                                <span class="custom-radio"></span>
+                                Adobe XD
+                            </label>
+                            <label class="form-radio">
+                                <input type="radio" class="input-hidden" value="adobe photoshop" name="format">
+                                <span class="custom-radio"></span>
+                                Adobe Photoshop
+                            </label>
+                            <label class="form-radio">
+                                <input type="radio" class="input-hidden" value="adobe illustration" name="format">
+                                <span class="custom-radio"></span>
+                                Adobe Illustration
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter-box">
+                        <strong class="filter-box__title">
+                            Style
+                        </strong>
+                        <div class="filter-box__info">
+                            <label class="form-switcher">
+                                <input type="checkbox" class="form-switcher__input input-hidden" name="minimalist" value="style">
+                                <span class="custom-switcher"></span>
+                                Minimalist
+                            </label>
+                            <label class="form-switcher">
+                                <input type="checkbox" class="form-switcher__input input-hidden" name="modern" value="style">
+                                <span class="custom-switcher"></span>
+                                Modern
+                            </label>
+                            <label class="form-switcher">
+                                <input type="checkbox" class="form-switcher__input input-hidden" name="playful" value="style">
+                                <span class="custom-switcher"></span>
+                                Playful
+                            </label>
+                            <label class="form-switcher">
+                                <input type="checkbox" disabled class="form-switcher__input input-hidden" name="dark mode" value="style">
+                                <span class="custom-switcher"></span>
+                                Dark Mode
+                            </label>
+                            <label class="form-switcher">
+                                <input type="checkbox" class="form-switcher__input input-hidden" name="photocentric" value="style">
+                                <span class="custom-switcher"></span>
+                                Photocentric
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter-box filter-box__range">
+                        <strong class="filter-box__title">
+                            Price
+                        </strong>
+                        <div class="range">
+                            <div class="range-slider">
+                                <div class="range-fill"></div>
+                                <input type="range" value="5" min="0" max="70" step="5">
+                                <input type="range" value="50" min="0" max="70" step="5">
+                            </div>
+                            <div class="range-content">
+                                <span class="min-value">
+                                    €5
+                                </span>
+                                <span class="max-value">
+                                    €50
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn--transparent filter-btn">
+                        <svg width="14" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 1L1.5 13M1.5 1L13.5 13" stroke="#0D0D15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Clear all filters
+                    </button> 
+                </form>
+            </aside>
+            <section class="product-catalog">
+                <div class="header-catalog">
+                    <select class="catalog-select" name="filter" id="best" required>
+                        <option disabled value="" selected>Best Seller</option>
+                        <option value="general">New</option>
+                        <option value="general">Popular</option>
+                    </select>
+                    <div class="header-catalog__right">
+                        <p>
+                            Showing 12 out of 120 results.
+                        </p>
+                        <button class="btn btn--primary" type="button">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.4 3H4.6C4.03995 3 3.75992 3 3.54601 3.10899C3.35785 3.20487 3.20487 3.35785 3.10899 3.54601C3 3.75992 3 4.03995 3 4.6V8.4C3 8.96005 3 9.24008 3.10899 9.45399C3.20487 9.64215 3.35785 9.79513 3.54601 9.89101C3.75992 10 4.03995 10 4.6 10H8.4C8.96005 10 9.24008 10 9.45399 9.89101C9.64215 9.79513 9.79513 9.64215 9.89101 9.45399C10 9.24008 10 8.96005 10 8.4V4.6C10 4.03995 10 3.75992 9.89101 3.54601C9.79513 3.35785 9.64215 3.20487 9.45399 3.10899C9.24008 3 8.96005 3 8.4 3Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.4 3H15.6C15.0399 3 14.7599 3 14.546 3.10899C14.3578 3.20487 14.2049 3.35785 14.109 3.54601C14 3.75992 14 4.03995 14 4.6V8.4C14 8.96005 14 9.24008 14.109 9.45399C14.2049 9.64215 14.3578 9.79513 14.546 9.89101C14.7599 10 15.0399 10 15.6 10H19.4C19.9601 10 20.2401 10 20.454 9.89101C20.6422 9.79513 20.7951 9.64215 20.891 9.45399C21 9.24008 21 8.96005 21 8.4V4.6C21 4.03995 21 3.75992 20.891 3.54601C20.7951 3.35785 20.6422 3.20487 20.454 3.10899C20.2401 3 19.9601 3 19.4 3Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.4 14H15.6C15.0399 14 14.7599 14 14.546 14.109C14.3578 14.2049 14.2049 14.3578 14.109 14.546C14 14.7599 14 15.0399 14 15.6V19.4C14 19.9601 14 20.2401 14.109 20.454C14.2049 20.6422 14.3578 20.7951 14.546 20.891C14.7599 21 15.0399 21 15.6 21H19.4C19.9601 21 20.2401 21 20.454 20.891C20.6422 20.7951 20.7951 20.6422 20.891 20.454C21 20.2401 21 19.9601 21 19.4V15.6C21 15.0399 21 14.7599 20.891 14.546C20.7951 14.3578 20.6422 14.2049 20.454 14.109C20.2401 14 19.9601 14 19.4 14Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.4 14H4.6C4.03995 14 3.75992 14 3.54601 14.109C3.35785 14.2049 3.20487 14.3578 3.10899 14.546C3 14.7599 3 15.0399 3 15.6V19.4C3 19.9601 3 20.2401 3.10899 20.454C3.20487 20.6422 3.35785 20.7951 3.54601 20.891C3.75992 21 4.03995 21 4.6 21H8.4C8.96005 21 9.24008 21 9.45399 20.891C9.64215 20.7951 9.79513 20.6422 9.89101 20.454C10 20.2401 10 19.9601 10 19.4V15.6C10 15.0399 10 14.7599 9.89101 14.546C9.79513 14.3578 9.64215 14.2049 9.45399 14.109C9.24008 14 8.96005 14 8.4 14Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="btn btn--transparent" type="button">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 12L9 12M21 6L9 6M21 18L9 18M5 12C5 12.5523 4.55228 13 4 13C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11C4.55228 11 5 11.4477 5 12ZM5 6C5 6.55228 4.55228 7 4 7C3.44772 7 3 6.55228 3 6C3 5.44772 3.44772 5 4 5C4.55228 5 5 5.44772 5 6ZM5 18C5 18.5523 4.55228 19 4 19C3.44772 19 3 18.5523 3 18C3 17.4477 3.44772 17 4 17C4.55228 17 5 17.4477 5 18Z" stroke="#0D0D15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="filters">
+                    <button class="btn btn--transparent filter-btn" type="button">
+                        UI Kit
+                        <svg width="8" height="8" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 1L1.5 13M1.5 1L13.5 13" stroke="#0D0D15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn--transparent filter-btn" type="button">
+                        UI Kit
+                        <svg width="8" height="8" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 1L1.5 13M1.5 1L13.5 13" stroke="#0D0D15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="list-catalog">
+                    <article class="catalog-card catalog-card--disabled">
+                        <div class="catalog-card__img">
+                            <img src="images/catalog/james.webp" width="325" height="260" alt="web page of a company that deals with photography and creativity called James">
+                            <span class="label label--primary label--catalog">
+                                sold out
+                            </span>
+                        </div>
+                        <strong class="catalog-card__title">
+                            Lens Chronicles
+                        </strong>
+                        <ul class="breadcrumbs">
+                            <li>
+                                Photography
+                            </li>
+                            <li>
+                                Creative
+                            </li>
+                        </ul>
+                        <span class="catalog-card__prices">
+                            €00.00 
+                        </span>
+                    </article>
+                    <article class="catalog-card">
+                        <a href="#" class="catalog-card__link">
+                            <div class="catalog-card__img">
+                                <img src="images/catalog/jobBlitz.webp" width="325" height="260" alt="a web page of a company that is engaged in job search and is called jobBlitz">
+                                <span class="label label--secondary label--catalog">
+                                    new
+                                </span>
+                            </div>
+                            <strong class="catalog-card__title">
+                                Career Success
+                            </strong>
+                            <ul class="breadcrumbs">
+                                <li>
+                                    Guidance
+                                </li>
+                                <li>
+                                    Jobs
+                                </li>
+                            </ul>
+                        </a>
+                        <div class="catalog-card__box">
+                            <span class="catalog-card__prices">
+                                €20.99
+                            </span>
+                            <div class="catalog__btn">
+                                <a href="#" class="btn btn--transparent btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.5013 10.5721L11.0013 18.0001L3.50128 10.5721C3.00658 10.0907 2.61692 9.51207 2.35683 8.87269C2.09673 8.23331 1.97184 7.54701 1.99002 6.85699C2.00819 6.16697 2.16904 5.48819 2.46244 4.86339C2.75583 4.23859 3.17541 3.68131 3.69476 3.22663C4.21411 2.77196 4.82198 2.42974 5.48009 2.22154C6.1382 2.01333 6.83228 1.94364 7.51865 2.01686C8.20501 2.09007 8.86878 2.30461 9.46815 2.64696C10.0675 2.98931 10.5895 3.45205 11.0013 4.00605C11.4148 3.45608 11.9374 2.99738 12.5364 2.65866C13.1353 2.31994 13.7978 2.1085 14.4822 2.03757C15.1666 1.96665 15.8584 2.03775 16.5141 2.24645C17.1697 2.45514 17.7753 2.79693 18.2928 3.25042C18.8104 3.70391 19.2287 4.25934 19.5217 4.88195C19.8147 5.50456 19.976 6.18094 19.9956 6.86876C20.0152 7.55659 19.8925 8.24105 19.6354 8.8793C19.3783 9.51756 18.9922 10.0959 18.5013 10.5781" stroke="#273544" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="btn btn--primary btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="catalog-card">
+                        <a href="#" class="catalog-card__link">
+                            <div class="catalog-card__img">
+                                <img src="images/catalog/skyHomes.webp" width="325" height="260" alt="modern website landing page design for a real estate service or company called SkyHomes">
+                                <span class="label label--blue label--catalog">
+                                    POPULAR 
+                                </span>
+                            </div>
+                            <strong class="catalog-card__title">
+                                Dream Homes
+                            </strong>
+                            <ul class="breadcrumbs">
+                                <li>
+                                    Real Estate
+                                </li>
+                                <li>
+                                    Modern
+                                </li>
+                            </ul>
+                        </a>
+                        <div class="catalog-card__box">
+                            <span class="catalog-card__prices">
+                                €45.99
+                            </span>
+                            <div class="catalog__btn">
+                                <a href="#" class="btn btn--transparent btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.5013 10.5721L11.0013 18.0001L3.50128 10.5721C3.00658 10.0907 2.61692 9.51207 2.35683 8.87269C2.09673 8.23331 1.97184 7.54701 1.99002 6.85699C2.00819 6.16697 2.16904 5.48819 2.46244 4.86339C2.75583 4.23859 3.17541 3.68131 3.69476 3.22663C4.21411 2.77196 4.82198 2.42974 5.48009 2.22154C6.1382 2.01333 6.83228 1.94364 7.51865 2.01686C8.20501 2.09007 8.86878 2.30461 9.46815 2.64696C10.0675 2.98931 10.5895 3.45205 11.0013 4.00605C11.4148 3.45608 11.9374 2.99738 12.5364 2.65866C13.1353 2.31994 13.7978 2.1085 14.4822 2.03757C15.1666 1.96665 15.8584 2.03775 16.5141 2.24645C17.1697 2.45514 17.7753 2.79693 18.2928 3.25042C18.8104 3.70391 19.2287 4.25934 19.5217 4.88195C19.8147 5.50456 19.976 6.18094 19.9956 6.86876C20.0152 7.55659 19.8925 8.24105 19.6354 8.8793C19.3783 9.51756 18.9922 10.0959 18.5013 10.5781" stroke="#273544" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="btn btn--primary btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="catalog-card">
+                        <a href="#" class="catalog-card__link">
+                            <div class="catalog-card__img">
+                                <img src="images/catalog/foodish.webp " width="325" height="260" alt="a modern website design for a catering service called Foodish">
+                                <span class="label label--blue label--catalog">
+                                    POPULAR 
+                                </span>
+                            </div>
+                            <strong class="catalog-card__title">
+                                Foodish Catering
+                            </strong>
+                            <ul class="breadcrumbs">
+                                <li>
+                                    Food
+                                </li>
+                                <li>
+                                    Events
+                                </li>
+                            </ul>
+                        </a>
+                        <div class="catalog-card__box">
+                            <span class="catalog-card__prices">
+                                €15.99
+                            </span>
+                            <div class="catalog__btn">
+                                <a href="#" class="btn btn--transparent btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.5013 10.5721L11.0013 18.0001L3.50128 10.5721C3.00658 10.0907 2.61692 9.51207 2.35683 8.87269C2.09673 8.23331 1.97184 7.54701 1.99002 6.85699C2.00819 6.16697 2.16904 5.48819 2.46244 4.86339C2.75583 4.23859 3.17541 3.68131 3.69476 3.22663C4.21411 2.77196 4.82198 2.42974 5.48009 2.22154C6.1382 2.01333 6.83228 1.94364 7.51865 2.01686C8.20501 2.09007 8.86878 2.30461 9.46815 2.64696C10.0675 2.98931 10.5895 3.45205 11.0013 4.00605C11.4148 3.45608 11.9374 2.99738 12.5364 2.65866C13.1353 2.31994 13.7978 2.1085 14.4822 2.03757C15.1666 1.96665 15.8584 2.03775 16.5141 2.24645C17.1697 2.45514 17.7753 2.79693 18.2928 3.25042C18.8104 3.70391 19.2287 4.25934 19.5217 4.88195C19.8147 5.50456 19.976 6.18094 19.9956 6.86876C20.0152 7.55659 19.8925 8.24105 19.6354 8.8793C19.3783 9.51756 18.9922 10.0959 18.5013 10.5781" stroke="#273544" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="btn btn--primary btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="catalog-card">
+                        <a href="#" class="catalog-card__link">
+                            <div class="catalog-card__img">
+                                <img src="images/catalog/mediCare.webp" width="325" height="260" alt="modern website landing page design for a medical company called MediCare">
+                                <span class="label label--secondary label--catalog">
+                                    new
+                                </span>
+                            </div>
+                            <strong class="catalog-card__title">
+                                Caring Hearts
+                            </strong>
+                            <ul class="breadcrumbs">
+                                <li>
+                                    Healthcare
+                                </li>
+                                <li>
+                                    Support
+                                </li>
+                            </ul>
+                        </a>
+                        <div class="catalog-card__box">
+                            <span class="catalog-card__prices">
+                                €19.99
+                            </span>
+                            <div class="catalog__btn">
+                                <a href="#" class="btn btn--transparent btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.5013 10.5721L11.0013 18.0001L3.50128 10.5721C3.00658 10.0907 2.61692 9.51207 2.35683 8.87269C2.09673 8.23331 1.97184 7.54701 1.99002 6.85699C2.00819 6.16697 2.16904 5.48819 2.46244 4.86339C2.75583 4.23859 3.17541 3.68131 3.69476 3.22663C4.21411 2.77196 4.82198 2.42974 5.48009 2.22154C6.1382 2.01333 6.83228 1.94364 7.51865 2.01686C8.20501 2.09007 8.86878 2.30461 9.46815 2.64696C10.0675 2.98931 10.5895 3.45205 11.0013 4.00605C11.4148 3.45608 11.9374 2.99738 12.5364 2.65866C13.1353 2.31994 13.7978 2.1085 14.4822 2.03757C15.1666 1.96665 15.8584 2.03775 16.5141 2.24645C17.1697 2.45514 17.7753 2.79693 18.2928 3.25042C18.8104 3.70391 19.2287 4.25934 19.5217 4.88195C19.8147 5.50456 19.976 6.18094 19.9956 6.86876C20.0152 7.55659 19.8925 8.24105 19.6354 8.8793C19.3783 9.51756 18.9922 10.0959 18.5013 10.5781" stroke="#273544" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="btn btn--primary btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="catalog-card catalog-card--disabled">
+                        <div class="catalog-card__img">
+                            <img src="images/catalog/upnews.webp" width="325" height="260" alt="UpNews company web page with sports news">
+                            <span class="label label--primary label--catalog">
+                                sold out
+                            </span>
+                        </div>
+                        <strong class="catalog-card__title">
+                            Gaming Rise
+                        </strong>
+                        <ul class="breadcrumbs">
+                            <li>
+                                eSports
+                            </li>
+                            <li>
+                                Trends
+                            </li>
+                        </ul>
+                        <span class="catalog-card__prices">
+                            €00.00 
+                        </span>
+                    </article>
+                    <article class="catalog-card catalog-card--disabled">
+                        <div class="catalog-card__img">
+                            <img src="images/catalog/playcut.webp" width="325" height="260" alt="">
+                            <span class="label label--primary label--catalog">
+                                sold out
+                            </span>
+                        </div>
+                        <strong class="catalog-card__title">
+                            Edit Pro
+                        </strong>
+                        <ul class="breadcrumbs">
+                            <li>
+                                Design
+                            </li>
+                            <li>
+                                Tools
+                            </li>
+                        </ul>
+                        <span class="catalog-card__prices">
+                            €00.00 
+                        </span>
+                    </article>
+                    <article class="catalog-card">
+                        <a href="#" class="catalog-card__link">
+                            <div class="catalog-card__img">
+                                <img src="images/catalog/withCash.webp" width="325" height="260" alt="">
+                                <span class="label label--secondary label--catalog">
+                                    new
+                                </span>
+                            </div>
+                            <strong class="catalog-card__title">
+                                Banking Redefined
+                            </strong>
+                            <ul class="breadcrumbs">
+                                <li>
+                                    Finance
+                                </li>
+                                <li>
+                                    Secure
+                                </li>
+                            </ul>
+                        </a>
+                        <div class="catalog-card__box">
+                            <span class="catalog-card__prices">
+                                €25.99
+                            </span>
+                            <div class="catalog__btn">
+                                <a href="#" class="btn btn--transparent btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.5013 10.5721L11.0013 18.0001L3.50128 10.5721C3.00658 10.0907 2.61692 9.51207 2.35683 8.87269C2.09673 8.23331 1.97184 7.54701 1.99002 6.85699C2.00819 6.16697 2.16904 5.48819 2.46244 4.86339C2.75583 4.23859 3.17541 3.68131 3.69476 3.22663C4.21411 2.77196 4.82198 2.42974 5.48009 2.22154C6.1382 2.01333 6.83228 1.94364 7.51865 2.01686C8.20501 2.09007 8.86878 2.30461 9.46815 2.64696C10.0675 2.98931 10.5895 3.45205 11.0013 4.00605C11.4148 3.45608 11.9374 2.99738 12.5364 2.65866C13.1353 2.31994 13.7978 2.1085 14.4822 2.03757C15.1666 1.96665 15.8584 2.03775 16.5141 2.24645C17.1697 2.45514 17.7753 2.79693 18.2928 3.25042C18.8104 3.70391 19.2287 4.25934 19.5217 4.88195C19.8147 5.50456 19.976 6.18094 19.9956 6.86876C20.0152 7.55659 19.8925 8.24105 19.6354 8.8793C19.3783 9.51756 18.9922 10.0959 18.5013 10.5781" stroke="#273544" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="btn btn--primary btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="catalog-card">
+                        <a href="#" class="catalog-card__link">
+                            <div class="catalog-card__img">
+                                <img src="images/catalog/journeey.webp " width="325" height="260" alt="modern landing page design for a travel company called Journey">
+                                <span class="label label--blue label--catalog">
+                                    POPULAR 
+                                </span>
+                            </div>
+                            <strong class="catalog-card__title">
+                                Exploring Fun
+                            </strong>
+                            <ul class="breadcrumbs">
+                                <li>
+                                    Travel
+                                </li>
+                                <li>
+                                    Adventure
+                                </li>
+                            </ul>
+                        </a>
+                        <div class="catalog-card__box">
+                            <span class="catalog-card__prices">
+                                €41.99
+                            </span>
+                            <div class="catalog__btn">
+                                <a href="#" class="btn btn--transparent btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.5013 10.5721L11.0013 18.0001L3.50128 10.5721C3.00658 10.0907 2.61692 9.51207 2.35683 8.87269C2.09673 8.23331 1.97184 7.54701 1.99002 6.85699C2.00819 6.16697 2.16904 5.48819 2.46244 4.86339C2.75583 4.23859 3.17541 3.68131 3.69476 3.22663C4.21411 2.77196 4.82198 2.42974 5.48009 2.22154C6.1382 2.01333 6.83228 1.94364 7.51865 2.01686C8.20501 2.09007 8.86878 2.30461 9.46815 2.64696C10.0675 2.98931 10.5895 3.45205 11.0013 4.00605C11.4148 3.45608 11.9374 2.99738 12.5364 2.65866C13.1353 2.31994 13.7978 2.1085 14.4822 2.03757C15.1666 1.96665 15.8584 2.03775 16.5141 2.24645C17.1697 2.45514 17.7753 2.79693 18.2928 3.25042C18.8104 3.70391 19.2287 4.25934 19.5217 4.88195C19.8147 5.50456 19.976 6.18094 19.9956 6.86876C20.0152 7.55659 19.8925 8.24105 19.6354 8.8793C19.3783 9.51756 18.9922 10.0959 18.5013 10.5781" stroke="#273544" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="btn btn--primary btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="catalog-card">
+                        <a href="#" class="catalog-card__link">
+                            <div class="catalog-card__img">
+                                <img src="images/catalog/ezMart.webp " width="325" height="260" alt="Admin Dashboard with tools and data">
+                                <span class="label label--blue label--catalog">
+                                    POPULAR 
+                                </span>
+                            </div>
+                            <strong class="catalog-card__title">
+                                Admin Dashboard
+                            </strong>
+                            <ul class="breadcrumbs">
+                                <li>
+                                    Data
+                                </li>
+                                <li>
+                                    Tools
+                                </li>
+                            </ul>
+                        </a>
+                        <div class="catalog-card__box">
+                            <span class="catalog-card__prices">
+                                €15.99
+                            </span>
+                            <div class="catalog__btn">
+                                <a href="#" class="btn btn--transparent btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.5013 10.5721L11.0013 18.0001L3.50128 10.5721C3.00658 10.0907 2.61692 9.51207 2.35683 8.87269C2.09673 8.23331 1.97184 7.54701 1.99002 6.85699C2.00819 6.16697 2.16904 5.48819 2.46244 4.86339C2.75583 4.23859 3.17541 3.68131 3.69476 3.22663C4.21411 2.77196 4.82198 2.42974 5.48009 2.22154C6.1382 2.01333 6.83228 1.94364 7.51865 2.01686C8.20501 2.09007 8.86878 2.30461 9.46815 2.64696C10.0675 2.98931 10.5895 3.45205 11.0013 4.00605C11.4148 3.45608 11.9374 2.99738 12.5364 2.65866C13.1353 2.31994 13.7978 2.1085 14.4822 2.03757C15.1666 1.96665 15.8584 2.03775 16.5141 2.24645C17.1697 2.45514 17.7753 2.79693 18.2928 3.25042C18.8104 3.70391 19.2287 4.25934 19.5217 4.88195C19.8147 5.50456 19.976 6.18094 19.9956 6.86876C20.0152 7.55659 19.8925 8.24105 19.6354 8.8793C19.3783 9.51756 18.9922 10.0959 18.5013 10.5781" stroke="#273544" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="btn btn--primary btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="catalog-card">
+                        <a href="#" class="catalog-card__link">
+                            <div class="catalog-card__img">
+                                <img src="images/catalog/schoolHub.webp" width="325" height="260" alt="Analytical Dashboard school Hub">
+                                <span class="label label--secondary label--catalog">
+                                    new
+                                </span>
+                            </div>
+                            <strong class="catalog-card__title">
+                                Analytical Dashboard
+                            </strong>
+                            <ul class="breadcrumbs">
+                                <li>
+                                    Data
+                                </li>
+                                <li>
+                                    Tools
+                                </li>
+                            </ul>
+                        </a>
+                        <div class="catalog-card__box">
+                            <span class="catalog-card__prices">
+                                €10.99
+                            </span>
+                            <div class="catalog__btn">
+                                <a href="#" class="btn btn--transparent btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.5013 10.5721L11.0013 18.0001L3.50128 10.5721C3.00658 10.0907 2.61692 9.51207 2.35683 8.87269C2.09673 8.23331 1.97184 7.54701 1.99002 6.85699C2.00819 6.16697 2.16904 5.48819 2.46244 4.86339C2.75583 4.23859 3.17541 3.68131 3.69476 3.22663C4.21411 2.77196 4.82198 2.42974 5.48009 2.22154C6.1382 2.01333 6.83228 1.94364 7.51865 2.01686C8.20501 2.09007 8.86878 2.30461 9.46815 2.64696C10.0675 2.98931 10.5895 3.45205 11.0013 4.00605C11.4148 3.45608 11.9374 2.99738 12.5364 2.65866C13.1353 2.31994 13.7978 2.1085 14.4822 2.03757C15.1666 1.96665 15.8584 2.03775 16.5141 2.24645C17.1697 2.45514 17.7753 2.79693 18.2928 3.25042C18.8104 3.70391 19.2287 4.25934 19.5217 4.88195C19.8147 5.50456 19.976 6.18094 19.9956 6.86876C20.0152 7.55659 19.8925 8.24105 19.6354 8.8793C19.3783 9.51756 18.9922 10.0959 18.5013 10.5781" stroke="#273544" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="btn btn--primary btn--small">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z" stroke="#F8F7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="catalog-card catalog-card--disabled">
+                        <div class="catalog-card__img">
+                            <img src="images/catalog/kidzArt.webp" width="325" height="260" alt="web page of a kindergarten called KidzArt">
+                            <span class="label label--primary label--catalog">
+                                sold out
+                            </span>
+                        </div>
+                        <strong class="catalog-card__title">
+                            Kindergarten
+                        </strong>
+                        <ul class="breadcrumbs">
+                            <li>
+                                Education
+                            </li>
+                            <li>
+                                Kids
+                            </li>
+                        </ul>
+                        <span class="catalog-card__prices">
+                            €00.00 
+                        </span>
+                    </article>
+                </div>
+                <div class="align-center">
+                    <button type="button" class="btn btn--transparent">
+                        Load more
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrapper container">
+            <div class="footer__top">
+                <div class="footer__content">
+                    <a href="index.html" class="footer__logo">
+                        <img src="images/logo-big.svg" width="300" height="58" alt="Pixmart.">
+                    </a>
+                    <p>
+                        Your premium digital assets solution with high quality and comprehensive range of products and services.
+                    </p>
+                </div>
+                <div class="footer__box">
+                    <div class="footer__col">
+                        <strong class="footer__title">
+                            Company
+                        </strong>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Homepage v1
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Homepage v2
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Homepage v3
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">
+                                    Blog Articles
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <strong class="footer__title">
+                            Products
+                        </strong>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Website
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Mobile App
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Social Media Feeds
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">
+                                    Presentation
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">
+                                    Product Mockups 
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">
+                                    Illustrations
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <strong class="footer__title">
+                            Account
+                        </strong>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Your Cart
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Check Out
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Refund Policy
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">
+                                    Company Policy
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">
+                                    Send A Message 
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">
+                                    Customer Support
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <ul class="social-networks">
+                    <li>
+                        <a href="https://x.com" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.6441 6.18005C20.5012 5.64387 21.1425 4.7996 21.4483 3.80486C20.6429 4.30492 19.7618 4.65717 18.8429 4.84639C17.569 3.43621 15.5505 3.09303 13.9155 4.00862C12.2804 4.92421 11.4335 6.87189 11.848 8.76335C8.54901 8.59003 5.47544 6.95936 3.3921 4.2771C2.30485 6.2395 2.86046 8.74812 4.66182 10.01C4.01043 9.98806 3.37348 9.80351 2.80409 9.4717C2.80409 9.48971 2.80409 9.50772 2.80409 9.52573C2.80447 11.5699 4.18125 13.3307 6.09599 13.7358C5.49179 13.9079 4.85802 13.9332 4.24304 13.8099C4.78153 15.558 6.32121 16.7556 8.07611 16.7914C6.62265 17.9851 4.82769 18.6325 2.98002 18.6293C2.65252 18.6298 2.32528 18.6101 2 18.5703C3.87627 19.8319 6.06002 20.5016 8.29028 20.4992C11.3931 20.5215 14.375 19.2415 16.569 16.9455C18.763 14.6494 19.986 11.529 19.9644 8.28211C19.9644 8.09601 19.9603 7.91092 19.952 7.72683C20.7556 7.11913 21.4491 6.3663 22 5.50372C21.2514 5.85095 20.4573 6.07893 19.6441 6.18005Z" fill="#0D0D15"/>
+                            </svg>
+                            <span class="accessibility">
+                                twitter
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 12.0614C2.00116 17.0111 5.5784 21.2255 10.437 22.0012V14.9692H7.9V12.0614H10.44V9.84786C10.3265 8.79898 10.6825 7.75363 11.4116 6.99534C12.1408 6.23703 13.1674 5.84437 14.213 5.92385C14.9635 5.93604 15.7122 6.0033 16.453 6.12508V8.59922H15.189C14.7538 8.54187 14.3164 8.68647 13.9998 8.99229C13.6832 9.2981 13.5218 9.73203 13.561 10.1718V12.0614H16.332L15.889 14.9702H13.561V22.0012C18.8155 21.1657 22.5001 16.3373 21.9455 11.0141C21.3909 5.69079 16.7913 1.73615 11.4788 2.01511C6.16636 2.29407 2.00084 6.70896 2 12.0614Z" fill="#0D0D15"/>
+                            </svg>
+                            <span class="accessibility">
+                                facebook
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://telegram.com" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.5468 2.42273C23.1374 2.11452 22.4944 2.07042 21.8295 2.30739H21.8285C21.1292 2.55649 2.03537 9.82768 1.25808 10.1247C1.11671 10.1684 -0.118008 10.5774 0.00917513 11.4885C0.122712 12.3099 1.11507 12.6501 1.23625 12.6893L6.0905 14.165C6.41255 15.1168 7.59977 18.6283 7.86233 19.3785C8.02608 19.8462 8.293 20.4607 8.7608 20.5871C9.17128 20.7277 9.57957 20.5993 9.84376 20.4151L12.8116 17.9712L17.6025 21.2884L17.7166 21.349C18.0419 21.4769 18.3536 21.5409 18.6511 21.5409C18.8809 21.5409 19.1014 21.5026 19.3121 21.426C20.0299 21.1643 20.317 20.5571 20.347 20.4883L23.9256 3.97399C24.144 3.09199 23.8405 2.64323 23.5468 2.42273ZM10.3716 14.7553L8.73405 18.6322L7.0965 13.786L19.6511 5.54754L10.3716 14.7553Z" fill="#0D0D15"/>
+                            </svg>
+                            <span class="accessibility">
+                                telegram
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <form action="#" method="post" class="email-form">
+                    <label for="email">Subscribe to Design Newsletter</label>
+                    <input type="email" id="email" placeholder="Enter your email address ..." class="email-form__input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                    <button class="btn btn--primary" type="submit">
+                        Subscribe 
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <ul class="copyright__list">
+                    <li class="copyright__item">
+                        <a href="#" class="copyright__link">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li class="copyright__item">
+                        <a href="#" class="copyright__link">
+                            Terms and Condition
+                        </a>
+                    </li>
+                    <li class="copyright__item">
+                        <a href="#" class="copyright__link">
+                            Site Map
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    Copyright © 2024 Pixmart. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
